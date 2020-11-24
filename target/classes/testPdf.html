@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+            .fill {
+              width:300px;
+              height:400px;
+              object-fit:fill;
+            }
+            .contain {
+              width:300px;
+              height:400px;
+              object-fit:contain;
+            }
+            .cover {
+              width:300px;
+              height:400px;
+              object-fit:cover;
+            }
+            .none {
+              width:300px;
+              height:400px;
+              object-fit:none;
+            }
+            .scale-down {
+              width:300px;
+              height:400px;
+              object-fit:scale-down;
+            }
+        </style>
+</head>
+<body>
+<h1>Basic Image test</h1>
+<img class="dog" src="imageTest.png" width="500" height="200">
+
+<h1>object-fit: fill</h1>
+<img class="fill" src="stock_dog.png" alt="Paris" width="500" height="300">
+
+<h1>object-fit: contain</h1>
+<img class="contain" src="stock_dog.jpeg" alt="Paris" width="500" height="300">
+
+<h1>object-fit: cover</h1>
+<img class="cover" src="stock_dog.jpeg" alt="Paris" width="500" height="300">
+
+<h1>object-fit: none</h1>
+<img class="none" src="stock_dog.jpeg" alt="Paris" width="500" height="300">
+
+<h1>object-fit: scale-down</h1>
+<img class="scale-down" src="stock_dog.jpeg" alt="Paris" width="500" height="300">
+</body>
+</html>
